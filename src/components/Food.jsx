@@ -41,10 +41,10 @@ const Food = () => {
               All
             </button>
             <button
-              onClick={() => filterByCategory("burger")}
+              onClick={() => filterByCategory("chicken")}
               className="m-1 border-orange-400 text-orange-400 hover:text-white hover:bg-orange-400"
             >
-              Burgers
+              Chicken
             </button>
             <button
               onClick={() => filterByCategory("pizza")}
@@ -59,10 +59,10 @@ const Food = () => {
               Salads
             </button>
             <button
-              onClick={() => filterByCategory("chicken")}
+              onClick={() => filterByCategory("burger")}
               className="m-1 border-orange-400 text-orange-400 hover:text-white hover:bg-orange-400"
             >
-              Chicken
+              Burger
             </button>
           </div>
         </div>
