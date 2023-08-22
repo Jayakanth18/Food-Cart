@@ -19,7 +19,7 @@ const Navbar = () => {
         <div onClick={() => setNav(!nav)} className="cursor-pointer">
           <AiOutlineMenu size={30} />{" "}
         </div>
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
+        <h1 className="text-2xl sm:text-3xl lg:text-xxl px-2">
           Food <span className="font-bold"> Cart </span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-sm ">
@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       {/* search input*/}
-      <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+      <div className="bg-gray-200 rounded-full flex items-center px-2 w-[170px] sm:w-[400px] lg:w-[500px]">
         <AiOutlineSearch size={25} />
         <input
           type="text"
